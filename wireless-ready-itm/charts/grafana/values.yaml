@@ -4,9 +4,9 @@
 
 replicaCount: 1
 image:
-  repository: default-route-openshift-image-registry.apps.sandbox.cfa.devcloud.intel.com/devcloud-ri/grafana
+  repository: docker.io/qianxf/grafana #default-route-openshift-image-registry.apps.sandbox.cfa.devcloud.intel.com/devcloud-ri/grafana
   pullPolicy: IfNotPresent
-  tag: itm
+  tag: v8 #itm
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
