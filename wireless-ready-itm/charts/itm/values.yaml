@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: default-route-openshift-image-registry.apps.sandbox.cfa.devcloud.intel.com/devcloud-ri/itm
-  Version: "1.5"
+  repository: docker.io/qianxf/helloworld #default-route-openshift-image-registry.apps.sandbox.cfa.devcloud.intel.com/devcloud-ri/itm
+  Version: v7 #"1.5"
   pullPolicy: Always
 
 imagePullSecrets: []
